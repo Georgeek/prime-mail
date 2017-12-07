@@ -1,0 +1,60 @@
+.container {
+  border: 1px solid pink;
+}
+
+.header {
+  background-image: url(/assets/img/layer-top.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  &__logo {
+    height: 70px;
+    // width: 100%;
+  }
+
+  &__text {
+    color: $white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 15px;
+  }
+
+  &__phone {
+    font-size: 20px;
+  }
+}
+
+.title {
+  margin-bottom: 0;
+  color: $gray-text;
+  font-size: 34px;
+
+  &--gray {
+    color: $gray-light-text;
+  }
+}
+
+.price .wrapper-inner, .item .wrapper-inner {
+  padding: 0 16px;
+}
+
+.price {
+  background-color: $success-color;
+  &__header {
+    color: $white;
+  }
+
+  &--small {
+    font-size: 15px;
+  }
+}
+
+.item {
+  font-size: 16px;
+
+  &__image {
+    background-position: center center;
+    background-size: cover;
+  }
+}
