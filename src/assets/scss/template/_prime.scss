@@ -1,3 +1,6 @@
+@import "settings";
+@import 'foundation-emails';
+
 .container {
   border: 1px solid pink;
 }
@@ -56,5 +59,53 @@
   &__image {
     background-position: center center;
     background-size: cover;
+  }
+}
+
+.btn {
+  color: $white;
+  border-width: 2px;
+  border-style: solid;
+  display: inline-block;
+
+  &--orange {
+    border-color: $warning-color;
+    background-color: $warning-color;
+  }
+  // font-weight: bold;
+
+  &--large {
+    padding: 16px 40px 16px 40px;
+  }
+
+  &--transparent-green {
+    background-color: transparent;
+    color: $success-color;
+    border-color: $success-color;
+  }
+
+  &--green {
+    border-color: $success-color;
+    background-color: $success-color;
+  }
+
+  &--expanded {
+    padding: 16px 0;
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-image: url(/assets/img/layer-bottom.png);
+
+  &__text {
+    color: $gray-light-text;
+    font-size: 14px;
+  }
+
+  &__logo {
+    background-color: $black-background;
   }
 }
