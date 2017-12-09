@@ -15,7 +15,7 @@ subject: My Email Templates
       </columns>
 
       <columns large="7" valign="middle">
-        <p class="text-right header__text header__phone">+7(495)-984-09-98</p>
+        <p class="text-right"><a class="header__text header__phone" href="tel:74959840998" target="_blank">+7(495)-984-09-98</a></p>
       </columns>
     </row>
     <spacer size="16"></spacer>
@@ -52,7 +52,7 @@ subject: My Email Templates
           </row>
           <row>
             <columns large="6">
-              <h4 class="price__header">1 769 &euro;/m2</h4>
+              <h4 class="price__header">1 769 &euro;/м<sup>2</sup></h4>
               <p class="price__header price--small">Цена не облагается НДС</p>
             </columns>
           </row>
@@ -66,122 +66,74 @@ subject: My Email Templates
           <spacer size="18"></spacer>
           <!-- type -->
           <row>
-            <columns large="6">
-              Тип:
-            </columns>
-            <columns large="6">
-              Аппартаменты
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- country -->
           <row>
-            <columns large="6">
-              Страна:
-            </columns>
-            <columns large="6">
-              Кипр
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- city -->
           <row>
-            <columns large="6">
-              Город
-            </columns>
-            <columns large="6">
-              Лимассол
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- district -->
           <row>
-            <columns large="6">
-              Район:
-            </columns>
-            <columns large="6">
-              Меса Гитония
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- stage -->
           <row>
-            <columns large="6">
-              Стадия:
-            </columns>
-            <columns large="6">
-              Вторичный рынок
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- date -->
           <row>
-            <columns large="6">
-              Дата постройки:
-            </columns>
-            <columns large="6">
-              май 2007
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- rooms -->
           <row>
-            <columns large="6">
-              Спальни:
-            </columns>
-            <columns large="6">
-              1
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- bathrooms -->
           <row>
-            <columns large="6">
-              Ванные:
-            </columns>
-            <columns large="6">
-              1
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><p class="item__text">Аппартаменты</p></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- appartment size -->
           <row>
-            <columns large="6">
-              Крытая площадь:
-            </columns>
-            <columns large="6">
-              37 м2
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- lawn size -->
           <row>
-            <columns large="6">
-              Крытая веранда:
-            </columns>
-            <columns large="6">
-              15m2
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- floor -->
           <row>
-            <columns large="6">
-              Этаж:
-            </columns>
-            <columns large="6">
-              1
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><p class="item__text">Аппартаменты</p></columns>
           </row>
           <spacer size="4"></spacer>
           <!-- from sea -->
           <row>
-            <columns large="6">
-              До моря:
-            </columns>
-            <columns large="6">
-              2500 м
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><p class="item__text">Аппартаменты</p></columns>
           </row>
 
         </container>
@@ -189,6 +141,7 @@ subject: My Email Templates
       </wrapper>
     </columns>
 
+    <!-- item map location -->
     <columns large="6">
       <img src="assets/img/item-map.png" alt="квартира на карте" class="item__image">
     </columns>
@@ -196,15 +149,15 @@ subject: My Email Templates
 
   <!-- item description -->
   <row>
-    <columns>
+    <columns class="item">
       <spacer size="40"></spacer>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
+      <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
 
       <spacer size="25"></spacer>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
+      <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
 
       <spacer size="25"></spacer>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
+      <p class="item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, nostrum alias quasi illum rem atque asperiores sit et reiciendis voluptatum consectetur corrupti, ipsam tempore saepe vero suscipit! Ut, et sunt!</p>
 
       <spacer size="40"></spacer>
     </columns>
@@ -250,12 +203,13 @@ subject: My Email Templates
 
   <!-- cards suggestion -->
   <row>
+    <!-- first card -->
     <columns large="6">
       <row>
         <columns>
           <img src="assets/img/new1.png" width="270" height="200" alt="">
           <spacer size="25"></spacer>
-          <h4>ID: 16786</h4>
+          <h4 class="item__text">ID: 16786</h4>
           <spacer size="22"></spacer>
         </columns>
       </row>
@@ -267,67 +221,43 @@ subject: My Email Templates
 
           <!-- type -->
           <row>
-            <columns large="6">
-              Тип:
-            </columns>
-            <columns large="6">
-              Вилла
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- country -->
           <row>
-            <columns large="6">
-              Страна:
-            </columns>
-            <columns large="6">
-              Кипр
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- city -->
           <row>
-            <columns large="6">
-              Город
-            </columns>
-            <columns large="6">
-              Пафос
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- district -->
           <row>
-            <columns large="6">
-              Район:
-            </columns>
-            <columns large="6">
-              Си Кейвс
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- rooms -->
           <row>
-            <columns large="6">
-              Спален:
-            </columns>
-            <columns large="6">
-              5
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
-          <!-- date -->
+          <!-- square -->
           <row>
-            <columns large="6">
-              Площадь:
-            </columns>
-            <columns large="6">
-              339 м2
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
         </columns>
 
@@ -338,11 +268,11 @@ subject: My Email Templates
       <!-- price and buttons -->
       <spacer size="20"></spacer>
       <row>
-        <columns large="5">
-          <h4><s>3 800 000 &euro;</s></h4>
+        <columns large="5" valign="bottom">
+          <h5 class="title--gray"><s>3 800 000 &euro;</s></h4>
         </columns>
         <columns large="5">
-          <h4>3 800 000 &euro;</h4>
+          <h4 class="item__text">3 800 000 &euro;</h4>
         </columns>
         <columns large="2">
         </columns>
@@ -354,13 +284,13 @@ subject: My Email Templates
         </columns>
       </row>
     </columns>
-
+    <!-- Second card -->
     <columns large="6">
       <row>
         <columns>
           <img src="assets/img/new1.png" width="270" height="200" alt="">
           <spacer size="25"></spacer>
-          <h4>ID: 16786</h4>
+          <h4 class="item__text">ID: 16786</h4>
           <spacer size="22"></spacer>
         </columns>
       </row>
@@ -372,67 +302,43 @@ subject: My Email Templates
 
           <!-- type -->
           <row>
-            <columns large="6">
-              Тип:
-            </columns>
-            <columns large="6">
-              Вилла
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- country -->
           <row>
-            <columns large="6">
-              Страна:
-            </columns>
-            <columns large="6">
-              Кипр
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- city -->
           <row>
-            <columns large="6">
-              Город
-            </columns>
-            <columns large="6">
-              Пафос
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- district -->
           <row>
-            <columns large="6">
-              Район:
-            </columns>
-            <columns large="6">
-              Си Кейвс
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
           <!-- rooms -->
           <row>
-            <columns large="6">
-              Спален:
-            </columns>
-            <columns large="6">
-              5
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
           <spacer size="4"></spacer>
 
-          <!-- date -->
+          <!-- square -->
           <row>
-            <columns large="6">
-              Площадь:
-            </columns>
-            <columns large="6">
-              339 м2
-            </columns>
+            <columns large="6"><p class="item__text">Тип:</p></columns>
+            <columns large="6" ><a href="#" class="item__value">Аппартаменты</a></columns>
           </row>
         </columns>
 
@@ -443,11 +349,11 @@ subject: My Email Templates
       <!-- price and buttons -->
       <spacer size="20"></spacer>
       <row>
-        <columns large="5">
-          <h4><s>3 800 000 &euro;</s></h4>
+        <columns large="5" valign="bottom">
+          <h5 class="title--gray"><s>3 800 000 &euro;</s></h4>
         </columns>
         <columns large="5">
-          <h4>3 800 000 &euro;</h4>
+          <h4 class="item__text">3 800 000 &euro;</h4>
         </columns>
         <columns large="2">
         </columns>
@@ -477,20 +383,41 @@ subject: My Email Templates
   <!-- footer -->
   <wrapper class="footer">
     <spacer size="50"></spacer>
-    <row class="footer__contacts">
-      <columns large="6">
-        <h4>Контакты</h4>
-        <ul>
-          <li><a href="#" class="footer__contact">+7(495) 984 09 98 (Москва)</a></li>
-          <li><a href="#" class="footer__contact">+7(495) 984 09 98 (Москва)</a></li>
-          <li><a href="#" class="footer__contact">+7(495) 984 09 98 (Москва)</a></li>
-        </ul>
-
-
-
-
+    <row>
+      <columns>
+        <h4 class="footer__title">Контакты</h4>
       </columns>
-      <columns large="6">aoeaoe</columns>
+    </row>
+
+    <spacer size="16"></spacer>
+    <row class="footer__contacts">
+
+      <!-- footer contacts -->
+      <columns large="6">
+        <ul>
+          <li><a href="tel:74959840998" class="footer__contact" target="_blank"><img class="footer__icon" src="assets/img/phone.png" width="20" height="20" alt="test">+7(495) 984 09 98 (Москва)</a></li>
+          <spacer size="7"></spacer>
+          <li><a href="tel:74959840998" class="footer__contact" target="_blank"><img class="footer__icon" src="assets/img/phone.png" width="20" height="20" alt="test">+357(25)-558-700 (Кипр)</a></li>
+          <spacer size="7"></spacer>
+          <li><a href="mailto:info@prime-property.com" class="footer__contact" target="_blank"><img class="footer__icon" src="assets/img/emailalt.png" width="20" height="20" alt="test">info@prime-property.com</a></li>
+        </ul>
+      </columns>
+
+      <!-- footer social icons -->
+      <columns large="6">
+        <p class="footer__contact">Связаться с нами</p>
+        <spacer size="20"></spacer>
+        <ul class="footer__social-block">
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/emailalt.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/skype.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/facebookalt.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/linkedin.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/googleplus.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/youtube.png" width="20" height="20" alt="test"></a></li>
+          <li><a href="#" class="footer__contact"><img class="footer__icon" src="assets/img/weibo.png" width="20" height="20" alt="test"></a></li>
+
+        </ul>
+      </columns>
     </row>
     <spacer size="45"></spacer>
     <row class="footer__logo">
@@ -505,8 +432,8 @@ subject: My Email Templates
     <row class="footer__about">
       <columns>
         <spacer size="50"></spacer>
-        <p class="text-center footer__text"> (c) 2014, Прайм Консультикнг Лимитед. Все права защищены. Регистрационный номер: НЕ 304015.</p>
-        <p class="text-center footer__text">Вы получили это письмо, потому что подписаны на нашу рассылку, вы можете отписаться в любой момент.</p>
+        <p class="text-center footer__text">&copy; 2014, Прайм Консультикнг Лимитед. Все права защищены. Регистрационный номер: НЕ 304015.</p>
+        <p class="text-center footer__text">Вы получили это письмо, потому что подписаны на нашу рассылку, вы можете <a href="#" class="footer__contact footer_underline">отписаться</a> в любой момент.</p>
         <spacer size="50"></spacer>
       </columns>
     </row>

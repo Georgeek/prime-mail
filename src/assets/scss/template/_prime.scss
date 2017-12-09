@@ -1,9 +1,17 @@
 @import "settings";
 @import 'foundation-emails';
 
-.container {
-  border: 1px solid pink;
+ul {
+  margin: 0;
+  padding: 0;
 }
+li {
+  list-style: none;
+}
+
+// .container {
+//   border: 1px solid pink;
+// }
 
 .header {
   background-image: url(/assets/img/layer-top.png);
@@ -25,6 +33,9 @@
 
   &__phone {
     font-size: 20px;
+    &:hover, &:active, &:visited {
+      color: $white;
+    }
   }
 }
 
@@ -56,9 +67,22 @@
 .item {
   font-size: 16px;
 
-  &__image {
-    background-position: center center;
-    background-size: cover;
+  // &__image {
+  //   background-position: center center;
+  //   background-size: cover;
+  // }
+
+  &__text {
+    color: $gray-text;
+  }
+
+  &__value {
+    color: $success-color;
+    text-decoration: underline;
+
+    &:hover, &:active, &:visited {
+      color: $success-color;
+    }
   }
 }
 
@@ -71,6 +95,10 @@
   &--orange {
     border-color: $warning-color;
     background-color: $warning-color;
+
+    &:hover, &:active, &:visited {
+      color: $white;;
+    }
   }
   // font-weight: bold;
 
@@ -82,11 +110,19 @@
     background-color: transparent;
     color: $success-color;
     border-color: $success-color;
+
+    &:hover, &:active, &:visited {
+      color: $success-color;
+    }
   }
 
   &--green {
     border-color: $success-color;
     background-color: $success-color;
+
+    &:hover, &:active, &:visited {
+      color: $white;
+    }
   }
 
   &--expanded {
@@ -99,6 +135,25 @@
 
 .footer {
   background-image: url(/assets/img/layer-bottom.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    color: $white;
+  }
+
+  &__contact {
+    color: $gray-light-text;
+
+    &:hover, &:active, &:visited {
+      color: $gray-light-text;
+    }
+  }
+
+  &__icon {
+    margin-right: 8px;
+    display: inline-block;
+  }
 
   &__text {
     color: $gray-light-text;
@@ -107,5 +162,13 @@
 
   &__logo {
     background-color: $black-background;
+  }
+
+  &__social-block li {
+    display: inline-block;
+  }
+
+  &_underline {
+    text-decoration: underline;
   }
 }
