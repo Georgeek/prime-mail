@@ -163,3 +163,9 @@ li {
     text-decoration: underline;
   }
 }
+
+@media only screen and (max-width: 596px) {
+  td.small-6, th.small-6 {
+      display: table-cell !important;
+  }
+}
