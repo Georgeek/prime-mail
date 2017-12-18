@@ -24,7 +24,9 @@ li {
     color: $white;
     text-transform: uppercase;
     margin-bottom: 0;
+  }
 
+  a {
     &:hover, &:active, &:visited {
       color: $white;
     }
@@ -130,6 +132,7 @@ li {
 .footer {
   background-image: url(https://www.prime-property.com/themes/prime/dist/mail/layer-bottom.png);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 
   &__title {
