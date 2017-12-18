@@ -197,4 +197,12 @@ li {
   td.small-6, th.small-6 {
     display: table-cell !important;
   }
+
+  .footer {
+    th, td, tr {
+      display: block;
+      width: auto;
+      // margin: 0 auto;
+    }
+  }
 }
