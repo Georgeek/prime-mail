@@ -167,21 +167,15 @@ li {
   }
 }
 
-@media only screen and (max-width: 596px) {
-  td.small-6, th.small-6 {
-      display: table-cell !important;
-  }
-}
-
 @media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
   .header {
 
     &__text {
-      text-align: center;
+      text-align: center !important;
     }
 
     h5 {
-      text-align: center;
+      text-align: center !important;
     }
 
     table {
@@ -193,5 +187,9 @@ li {
       width: 100%;
       margin: 0 auto;
     }
+  }
+
+  td.small-6, th.small-6 {
+    display: table-cell !important;
   }
 }
