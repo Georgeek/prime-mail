@@ -6,11 +6,12 @@ li {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .header {
-  background-image: url(https://www.prime-property.com/themes/prime/dist/mail/layer-top.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background: #2c2b2b;
 
   &__logo {
     height: 70px;
@@ -88,9 +89,7 @@ li {
 
 .btn {
   color: $white;
-  border-width: 2px;
-  border-style: solid;
-  display: inline-block;
+  display: block;
 
   &--orange {
     border-color: $warning-color;
@@ -115,7 +114,6 @@ li {
   &--transparent-green {
     background-color: transparent;
     color: $success-color;
-    border-color: $success-color;
 
     &:hover, &:active, &:visited {
       color: $success-color;
@@ -123,7 +121,7 @@ li {
   }
 
   &--expanded {
-    padding: 16px 0;
+    // padding: 16px 0;
     width: 100%;
     text-align: center;
   }
@@ -132,7 +130,7 @@ li {
 .footer {
   max-width: 768px;
   width: 100%;
-  background-image: url(https://www.prime-property.com/assets/524f8178/images/pattern.jpg);
+  background: #2c2b2b;
 
   &__title {
     color: $white;
@@ -161,10 +159,6 @@ li {
     background-color: $black-background;
   }
 
-  &__social-block li {
-    display: inline-block;
-  }
-
   &_underline {
     text-decoration: underline;
   }
@@ -181,17 +175,14 @@ li {
       text-align: center !important;
     }
 
+    th, td, tr {
+      display: block;
+      width: auto;
+      margin: 0 auto;
+    }
 
   }
-  table {
-    width: 100%;
-  }
 
-  th, td, tr {
-    display: block;
-    width: auto;
-    margin: 0 auto;
-  }
 
   td.small-6, th.small-6 {
     display: table-cell !important;
@@ -201,7 +192,6 @@ li {
     th, td, tr {
       display: block;
       width: auto;
-      // margin: 0 auto;
     }
   }
 }
