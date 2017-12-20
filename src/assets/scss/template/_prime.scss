@@ -10,6 +10,9 @@ img {
   display: block;
 }
 
+td, tr, img  { padding: 0px; margin: 0px; border: none; }
+table { border-collapse: collapse; }
+
 .header {
   background: #2c2b2b;
 
@@ -36,7 +39,7 @@ img {
 }
 
 .price .wrapper-inner, .item .wrapper-inner {
-  padding: 0 16px;
+  padding: 0 10px;
 }
 
 .price {
@@ -46,9 +49,17 @@ img {
   }
 }
 
+  .buttons-expanded {
+    width: 384px;
+  }
+
 .item {
   &__text {
     color: $gray-text;
+  }
+
+  &__image {
+    width: 100%;
   }
 
   &__light-gray {
@@ -183,9 +194,31 @@ img {
 
   }
 
+  // img {
+  //   width: 100%;
+  // }
+
+  // td.small-6, th.small-6 {
+  //   display: table-cell !important;
+  // }
 
   td.small-6, th.small-6 {
-    display: table-cell !important;
+    // width: 100% !important;
+    display: inline-block !important;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  // table {
+  //   width: 100% !important;
+  // }
+
+  .buttons-expanded {
+    width: 100% !important;
+    display: block;
+    padding: 0 !important;
   }
 
   .footer {
