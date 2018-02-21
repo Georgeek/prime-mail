@@ -1,0 +1,1031 @@
+﻿<!DOCTYPE HTML>
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">     
+<META http-equiv="X-UA-Compatible" content="IE=edge">     
+<META name="viewport" content="width=device-width, initial-scale=1.0">     <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+    <![endif]--> 
+    
+<STYLE>
+        /* Basics */
+        body {
+            Margin: 0;
+            padding: 0;
+            min-width: 100%;
+            background-color: #3e444b;
+            font-size: 14px;
+            line-height: 1.4;
+            border-collapse: collapse;
+            color: #686868;
+            font-weight: lighter;
+        }
+
+        .black {
+            background-color: #2A2A2A;
+            color: #FFFFFF;
+        }
+
+        .yellow {
+            background-color: #F9B24F;
+            color: #FFFFFF;
+        }
+
+        .dark {
+            background-color: #3e444b;
+            color: #FFFFFF;
+        }
+
+        .dark p,
+        .dark li,
+        .dark a,
+        .dark a span,
+        .black p,
+        .black li,
+        .black a,
+        .black a span {
+            color: #FFFFFF;
+        }
+
+        .blue {
+            background: #3BC2D6;
+        }
+
+        table {
+            border-spacing: 0;
+            font-family: Roboto, sans-serif, Helvetica, Arial;
+            color: #686868;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 0;
+            vertical-align: top;
+        }
+
+        img {
+            border: 0;
+        }
+
+        .line {
+            border-bottom: 1px solid #505a65;
+        }
+
+        ul li {
+            Margin-bottom: 10px;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        .webkit {
+            max-width: 600px;
+        }
+
+        .outer {
+            Margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+            background: #FFFFFF;
+        }
+
+        .full-width-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .inner {
+            padding: 10px;
+        }
+
+        .grey {
+            background-color: #eeeeee;
+        }
+
+        p {
+            Margin: 0;
+            font-size: 14px;
+            line-height: 1.4;
+            padding-bottom: 10px;
+        }
+
+        a, a > span {
+            color: #4584b3;
+            text-decoration: none;
+        }
+
+        p.menu {
+            padding: 0;
+        }
+
+        .menu a {
+            color: #3b4044;
+            font-size: 18px;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+
+        .h1 {
+            font-size: 36px !important;
+            font-weight: bold;
+            Margin-bottom: 0;
+            color: #191919;
+        }
+
+        .h2 {
+            font-size: 24px !important;
+            font-weight: bold;
+            Margin-bottom: 0;
+            color: #191919;
+        }
+
+        .h3 {
+            font-size: 18px !important;
+            Margin-bottom: 12px;
+            color: #191919;
+        }
+        .h4 {
+            font-size:16px !important;
+            Margin-bottom:0;
+            padding-bottom:0;
+            color: #191919;
+        }
+
+        .center {
+            text-align: center !important;
+
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .white {
+            color: #FFFFFF;
+        }
+
+        img.default {
+            width: auto !important;
+            height: auto !important;
+        }
+
+        table.button {
+            border-width: 0;
+            border-style: none;
+            border-top-width: 0;
+            border-top-style: none;
+            color: #ffffff;
+            width: 80%;
+            border-radius: 3px;
+            font-family: Roboto, sans-serif, Helvetica, Arial;
+            border-collapse: separate !important;
+            border-radius: 0;
+            background-color: #0085bf;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            height: 25px;
+            border-collapse: collapse;
+            margin-top: 10px;
+            border-spacing: 0;
+            margin-bottom: 7px;
+            vertical-align: middle;
+            text-align: center;
+            background-image: none;
+            background-repeat: repeat;
+            background-position: top left;
+            background-attachment: scroll;
+        }
+
+        table.button td {
+            text-align: center;
+            vertical-align: middle;
+            height: 25px;
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+            font-size: 14px;
+            padding: 15px;
+            mso-line-height-rule: exactly;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table.button a,
+        table.button a > span {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: normal;
+            line-height: 100%;
+            text-align: center;
+            text-decoration: none;
+            color: #FFFFFF;
+            mso-line-height-rule: exactly;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        table.button.ghost-btn {
+            border-width:3px;
+            border-style: solid;
+            border-color:#84bc37;
+            border-top-width:3px;
+            border-top-style: solid;
+            border-top-color:#84bc37;
+            background-color: #ffffff;
+            color:#84bc37;
+        }
+
+        table.button.ghost-btn a,
+        table.button.ghost-btn a > span
+        {
+            background-color: #ffffff;
+            color:#84bc37;
+        }
+        table.button.ghost-btn.white {
+            border-width:3px;
+            border-style: solid;
+            border-color:#ffffff;
+            border-top-width:3px;
+            border-top-style: solid;
+            border-top-color:#ffffff;
+            background-color: transparent;
+            color:#ffffff;
+        }
+
+        table.button.ghost-btn.white a,
+        table.button.ghost-btn.white a > span
+        {
+            background-color: transparent;
+            color:#ffffff;
+        }
+
+
+        .three-column .small-img {
+            width: auto;
+            height: auto;
+        }
+
+        .price {
+            color: #F9B24F;
+
+            font-weight: bold;
+
+            margin: 0 auto;
+        }
+
+        .table {
+            border: 0 none;
+        }
+
+        .table td {
+            padding: 15px;
+            border: 3px solid #ffffff;
+            background: #efefef;
+        }
+
+        .note {
+            padding: 20px;
+            border-left: 2px solid #4584b3;
+            font-style: italic;
+        }
+
+        /* One column layout */
+        .one-column .contents {
+            text-align: left;
+        }
+
+        /*Two column layout*/
+        .two-column {
+            text-align: center;
+            font-size: 0;
+        }
+
+        .two-column .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .contents {
+            width: 100%;
+        }
+
+        .two-column .contents {
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .two-column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .two-column .text {
+            padding-top: 10px;
+        }
+
+        /*Three column layout*/
+        .three-column {
+            text-align: center;
+            font-size: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .three-column .column {
+            width: 100%;
+            max-width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .three-column .contents {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .three-column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .three-column .text {
+            padding-top: 10px;
+        }
+
+        /* Windows Phone Viewport Fix */
+        @-ms-viewport {
+            width: device-width;
+        }
+
+        /*Media Queries*/
+        @media screen and (max-width: 400px) {
+            .two-column .column,
+            .three-column .column {
+                max-width: 100% !important;
+            }
+
+            .three-column img {
+                max-width: 50% !important;
+            }
+        }
+
+        @media screen and (min-width: 401px) and (max-width: 620px) {
+            .three-column .column {
+                max-width: 33% !important;
+            }
+
+            .two-column .column {
+                max-width: 50% !important;
+            }
+        }
+
+    </STYLE>
+   
+<META name="GENERATOR" content="MSHTML 11.00.9600.18838"></HEAD> 
+<BODY style="margin: 0px; padding: 0px; color: rgb(104, 104, 104); line-height: 1.4; font-size: 14px; font-weight: lighter; border-collapse: collapse; min-width: 100%; background-color: rgb(62, 68, 75);">
+<CENTER class="wrapper" style="width: 100%; table-layout: fixed; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<DIV class="webkit" style="max-width: 600px;"><!-- [if (gte mso 9)|(IE)]>
+        <table width="600" align="center">
+            <tr>
+                <td>
+        <![endif]--> 
+        
+<TABLE align="center" class="outer" style="background: rgb(255, 255, 255); margin: 0px auto; width: 100%; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; max-width: 600px; border-spacing: 0;">
+  <TBODY>
+  <TR><!-- BEGIN TWO COLUMN ROW -->                         
+    <TD class="two-column line dark" style="padding: 0px; text-align: center; color: rgb(255, 255, 255); font-size: 0px; vertical-align: top; border-bottom-color: rgb(80, 90, 101); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(62, 68, 75);"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner dark" style="padding: 10px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+            <TABLE class="inner contents center dark" style="padding: 10px; width: 100%; text-align: center !important; color: rgb(255, 255, 255); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0; background-color: rgb(62, 68, 75);">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;">07/02/2018 
+                                                              
+            </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>             
+                          <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner dark" style="padding: 10px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+            <TABLE class="inner contents center dark" style="padding: 10px; width: 100%; text-align: center !important; color: rgb(255, 255, 255); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0; background-color: rgb(62, 68, 75);">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><A 
+                  style="color: rgb(255, 255, 255); text-decoration: none;" 
+                  href="C:/Users/shapavalava.n/Desktop/prime-property-v21/{{webversion}}">{{webversion}}</A> 
+                                                                                 
+                                                                             
+                </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>             
+                          <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END TWO COLUMN ROW-->               
+    
+  <TR><!-- BEGIN TWO COLUMN ROW -->                         
+    <TD class="two-column dark" style="padding: 0px; text-align: center; color: rgb(255, 255, 255); font-size: 0px; vertical-align: top; background-color: rgb(62, 68, 75);"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner dark" style="padding: 10px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+            <TABLE class="inner contents center dark" style="padding: 10px; width: 100%; text-align: center !important; color: rgb(255, 255, 255); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0; background-color: rgb(62, 68, 75);">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><BR></P>
+                  <P class="h1" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 36px !important; font-weight: bold;">HILLSIDE<BR><SPAN>VILLAS</SPAN></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV> 
+                                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner dark" style="padding: 10px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+            <TABLE class="inner contents center dark" style="padding: 10px; width: 100%; text-align: center !important; color: rgb(255, 255, 255); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0; background-color: rgb(62, 68, 75);">
+              <TBODY>
+              <TR>
+                <TD class="text " style="padding: 10px 0px 0px; vertical-align: top;"><A 
+                  style="color: rgb(255, 255, 255); text-decoration: none;" 
+                  href="https://www.prime-property.com/"><IMG class="default" 
+                  style="border: 0px currentColor; border-image: none; width: auto !important; height: auto !important; max-width: 139px;" 
+                  alt="www.prime-property.com" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/logo.png"></A> 
+                                                                                 
+                                                                 
+            </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>                 
+                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END TWO COLUMN ROW-->               
+    
+  <TR><!-- BEGIN TWO COLUMN ROW -->                         
+    <TD class="two-column black" style="padding: 0px; text-align: center; color: rgb(255, 255, 255); font-size: 0px; vertical-align: top; background-color: rgb(42, 42, 42);"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner black" style="padding: 10px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(42, 42, 42);">
+            <TABLE class="inner contents center " style="padding: 10px; width: 100%; text-align: center !important; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text " style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P class="white h2 " style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 24px !important; font-weight: bold;">HILLSIDE 
+                                                            
+              VILLAS</P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>       
+                                <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column " style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner yellow" style="background: rgb(249, 178, 79); padding: 10px; color: rgb(255, 255, 255); vertical-align: top;">
+            <TABLE class="inner contents center" style="padding: 10px; width: 100%; text-align: center !important; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P class="white h2" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 24px !important; font-weight: bold;">Price: 
+                                                        <SPAN style="color: rgb(0, 0, 0);"><B>EUR 
+                                                              
+                  848,000</B></SPAN></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV> 
+                                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END TWO COLUMN ROW-->               
+    
+  <TR><!-- BEGIN ONECOLUMN BANNER ROW-->                         
+    <TD class="full-width-image" 
+      style="padding: 0px; vertical-align: top;"><IMG style="border: 0px currentColor; border-image: none; width: 100%; height: auto; display: block;" 
+      alt="" src="https://www.prime-property.com/uploads/files/project_ppg/719/1920/villas_01.jpg"></TD></TR><!-- END ONECOLUMN BANNER ROW--> 
+                      
+  <TR><!-- BEGIN ONECOLUMN ROW-->                         
+    <TD class="one-column blue" style="background: rgb(59, 194, 214); padding: 0px; vertical-align: top;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents center" style="padding: 10px; width: 100%; text-align: center !important; vertical-align: top;">
+            <TABLE width="90%" align="center" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD style="padding: 0px; vertical-align: top;">
+                  <P class="white h4" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 0px; font-size: 16px !important;"> 
+                                                                                 
+                                                        City:                    
+                                                                                 
+                      <B>Limassol</B>                                            
+                                                       </P></TD>
+                <TD style="padding: 0px; vertical-align: top;">
+                  <P class="white h4" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 0px; font-size: 16px !important;"> 
+                                                                                 
+                                                        Distance to the          
+                           sea, km: <B>2</B>                                     
+                                                              </P></TD>
+                <TD style="padding: 0px; vertical-align: top;">
+                  <P class="white h4" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 0px; font-size: 16px !important;"> 
+                                                                                 
+                                                        Stage:                   
+                   <B>Planned</B>                                                
+                                                             
+            </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR><!-- END ONECOLUMN ROW--> 
+                      
+  <TR><!-- BEGIN ONECOLUMN ROW-->                         
+    <TD class="one-column" style="padding: 0px; vertical-align: top;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents" style="padding: 10px; width: 100%; text-align: left; vertical-align: top;"></TD></TR></TBODY></TABLE></TD></TR><!-- END ONECOLUMN ROW--> 
+                      
+  <TR><!-- BEGIN TWO COLUMN ROW -->                         
+    <TD class="two-column" style="padding: 0px; text-align: center; font-size: 0px; vertical-align: top;"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: left; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <UL>
+                    <LI style="margin-bottom: 10px;">12 modern spacious          
+                                                   villas</LI>
+                    <LI style="margin-bottom: 10px;">Within few minutes drive to 
+                                                            the beach</LI>
+                    <LI style="margin-bottom: 10px;">sea views</LI>
+                    <LI style="margin-bottom: 10px;">Large covered verandas and  
+                                                           private pools</LI>
+                    <LI style="margin-bottom: 10px;">High standard finishes      
+                                                       (parquet floors, high 
+                    doors of 2.4 m,                     security entrance        
+                                 doors, thermal                     aluminum 
+                    window frames, top standard in-built                         
+                                    furniture, and sanitary                      
+                     ware)</LI></UL></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV> 
+                                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: left; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <UL>
+                    <P align="justify">                                          
+                                                                      Unique 
+                    collection of 12                     contemporary spacious   
+                                      houses in the                     
+                    prestigious area of Mouttagiaka. The gated                   
+                                          compound is located just a few minutes 
+                    drive from the                                         
+                    tourist of Limassol with its long sandy                     
+                    beach. Each house                     enjoys stunning sea    
+                                     panoramas and creates an incredible         
+                                                    ambience of relaxation by 
+                    being specifically designed to                               
+                              provide style and smart space arrangements.        
+                                 The selection of                     residences 
+                    offers a                     broad choice of sea view 
+                    three-, four-                                         and 
+                    five bedroom villas with large covered verandas and          
+                                                   private pools. The excellent 
+                    concept and                     signature                    
+                     architecture from a renowned                     London 
+                    architect will astound                     the most          
+                               demanding client and investor.                    
+                                                                                 
+                                                    
+          </P></UL></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>        
+                               <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END TWO COLUMN ROW-->               
+    
+  <TR><!-- BEGIN ONE COLUMN ROW-->                         
+    <TD class="one-column" style="background: rgb(244, 244, 244); padding: 0px; vertical-align: top;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents center" style="padding: 10px; width: 100%; text-align: center !important; vertical-align: top;"><BR>
+            <P style="margin: 0px; line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><A 
+            title="WEBPAGE" class="mcnButton " style="color: rgb(69, 132, 179); text-decoration: none;" 
+            href="https://www.prime-property.com/en/Development/Hillside_Villas/"><IMG 
+            width="175" height="51" style="border: 0px currentColor; border-image: none;" 
+            alt="WEBPAGE" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/button0.jpg" 
+            border="0">                                 </A>                     
+                                                <A title="E-BROCHURE" class="mcnButton " 
+            style="color: rgb(69, 132, 179); text-decoration: none;" href="https://www.prime-property.com/uploads/files/project_ppg/719/Hillside%20Brand.pdf"><IMG 
+            width="175" height="51" style="border: 0px currentColor; border-image: none;" 
+            alt="E-BROCHURE" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/button1.jpg" 
+            border="0">                                 </A>                     
+                                                <A title="SEND REQUEST" class="mcnButton " 
+            style="color: rgb(69, 132, 179); text-decoration: none;" href="https://www.prime-property.com/en/Contacts/" 
+            target="_blank"><IMG width="175" height="51" style="border: 0px currentColor; border-image: none;" 
+            alt="SEND REQUEST" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/button2.jpg" 
+            border="0">                                                 
+            </A><BR></P></TD></TR></TBODY></TABLE></TD></TR><!-- END ONE COLUMN ROW-->     
+                  
+  <TR><!-- BEGIN SPACE ROW-->                         
+    <TD height="30" class="one-column center dark" valign="middle" style="padding: 0px; text-align: center !important; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+      <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"></P></TD></TR><!-- END SPACE ROW--> 
+                      
+  <TR><!-- BEGIN ONE COLUMN ROW-->                         
+    <TD class="one-column yellow" style="padding: 0px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(249, 178, 79);">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents" style="padding: 10px; width: 100%; text-align: left; vertical-align: top;"><BR>
+            <P class="h2 center white" style="margin: 0px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 24px !important; font-weight: bold;"> 
+                                    CYPRUS 
+BENEFITS</P></TD></TR></TBODY></TABLE></TD></TR><!-- END ONE COLUMN ROW-->     
+                  
+  <TR><!-- END THREE COLUMN ROW-->                         
+    <TD class="three-column" style="padding: 10px 0px; text-align: center; font-size: 0px; vertical-align: top;"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="200" valign="top">
+                    <![endif]--> 
+                                                  
+      <TABLE class="column" style="width: 100%; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; vertical-align: top; display: inline-block; border-collapse: collapse; max-width: 200px; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: center; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P class="h3 center" style="margin: 0px 0px 12px; text-align: center !important; color: rgb(25, 25, 25); line-height: 1.4; padding-bottom: 10px; font-size: 18px !important;"> 
+                                                      WHY CYPRUS </P>
+                  <P style="margin: 0px; line-height: 1.4; padding-bottom: 10px; font-size: 14px;"> 
+                                                                                 
+                                                        Discover the             
+                        beauties life generously                   provides; a 
+                  place where family, fun,                                       
+                                                               relaxation and    
+                                                   business can harmonically 
+                  coexist. Enjoy the sea, the                   sun, the         
+                                                                                 
+                              civilization,                   the culture, the   
+                                  fast-growing business environment and all the  
+                                                                                 
+                                     benefits that                   a           
+                          European country has to offer.                         
+                                                                            
+                </P></TD></TR>
+              <TR>
+                <TD style="padding: 0px; vertical-align: top;"><IMG style="border: 0px currentColor; border-image: none; width: 100%; height: auto;" 
+                  alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/pic1.jpg"> 
+                                                                                 
+                                             </TD></TR>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;"><A 
+                  style="color: rgb(69, 132, 179); text-decoration: none; display: inline-block;" 
+                  href="C:/Users/shapavalava.n/Desktop/prime-property-v21/#">    
+                                                   Read More</A>                 
+                                                                          
+              </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>                       
+          <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="200" valign="top">
+                    <![endif]--> 
+                                                  
+      <TABLE class="column" style="width: 100%; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; vertical-align: top; display: inline-block; border-collapse: collapse; max-width: 200px; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: center; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P class="h3 center" style="margin: 0px 0px 12px; text-align: center !important; color: rgb(25, 25, 25); line-height: 1.4; padding-bottom: 10px; font-size: 18px !important;">TITLE 
+                                                      2 </P>
+                  <P style="margin: 0px; line-height: 1.4; padding-bottom: 10px; font-size: 14px;"> 
+                                                                                 
+                                                        Discover the             
+                        beauties life generously                   provides; a 
+                  place where family, fun,                                       
+                                                               relaxation and    
+                                                   business can harmonically 
+                  coexist. Enjoy the sea, the                   sun, the         
+                                                                                 
+                              civilization,                   the culture, the   
+                                  fast-growing business environment and all the  
+                                                                                 
+                                     benefits that                   a           
+                          European country has to offer.                         
+                                                                            
+                </P></TD></TR>
+              <TR>
+                <TD style="padding: 0px; vertical-align: top;"><IMG style="border: 0px currentColor; border-image: none; width: 100%; height: auto;" 
+                  alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/pic2.jpg"> 
+                                                                                 
+                                             </TD></TR>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;"><A 
+                  style="color: rgb(69, 132, 179); text-decoration: none; display: inline-block;" 
+                  href="C:/Users/shapavalava.n/Desktop/prime-property-v21/#">    
+                                                   Read More</A>                 
+                                                                          
+              </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>                       
+          <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="200" valign="top">
+                    <![endif]--> 
+                                                  
+      <TABLE class="column" style="width: 100%; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; vertical-align: top; display: inline-block; border-collapse: collapse; max-width: 200px; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: center; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <P class="h3 center" style="margin: 0px 0px 12px; text-align: center !important; color: rgb(25, 25, 25); line-height: 1.4; padding-bottom: 10px; font-size: 18px !important;"> 
+                                                      TITLE 3 </P>
+                  <P style="margin: 0px; line-height: 1.4; padding-bottom: 10px; font-size: 14px;"> 
+                                                                                 
+                                                        Discover the             
+                        beauties life generously                   provides; a 
+                  place where family, fun,                                       
+                                                               relaxation and    
+                                                   business can harmonically 
+                  coexist. Enjoy the sea, the                   sun, the         
+                                                                                 
+                              civilization,                   the culture, the   
+                                  fast-growing business environment and all the  
+                                                                                 
+                                     benefits that                   a           
+                          European country has to offer.                         
+                                                                            
+                </P></TD></TR>
+              <TR>
+                <TD style="padding: 0px; vertical-align: top;"><IMG style="border: 0px currentColor; border-image: none; width: 100%; height: auto;" 
+                  alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/pic3.jpg"> 
+                                                                                 
+                                             </TD></TR>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;"><A 
+                  style="color: rgb(69, 132, 179); text-decoration: none; display: inline-block;" 
+                  href="C:/Users/shapavalava.n/Desktop/prime-property-v21/#">    
+                                                   Read More</A>                 
+                                                                          
+              </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>                       
+          <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END THREE ROW-->                 
+  <TR><!-- BEGIN SPACE ROW-->                         
+    <TD height="30" class="one-column center dark" valign="middle" style="padding: 0px; text-align: center !important; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+      <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"></P></TD></TR><!-- END SPACE ROW--> 
+                      
+  <TR><!-- BEGIN ONE COLUMN ROW-->                         
+    <TD class="one-column yellow" style="padding: 0px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(249, 178, 79);">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents" style="padding: 10px; width: 100%; text-align: left; vertical-align: top;"><BR>
+            <P class="h2 center white" style="margin: 0px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 24px !important; font-weight: bold;"> 
+                                    WHY PRIME PROPERTY 
+      GROUP</P></TD></TR></TBODY></TABLE></TD></TR><!-- END ONE COLUMN ROW-->        
+               
+  <TR><!-- BEGIN ONE COLUMN ROW-->                         
+    <TD class="one-column" style="padding: 0px; vertical-align: top;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents" style="padding: 10px; width: 100%; text-align: left; vertical-align: top;"><BR>
+            <P style="margin: 0px; line-height: 1.4; padding-bottom: 10px; font-size: 14px;"> 
+                                                                       Discover 
+            the beauties             life             generously provides; a 
+            place where family, fun,                                             
+                           relaxation and business             can harmonically 
+            coexist.             Enjoy the sea, the sun, the                     
+                                                   civilization, the             
+            culture, the fast-growing business environment and             all   
+                      the                                    benefits that a 
+            European                         country has to offer.               
+                                                    
+  </P></TD></TR></TBODY></TABLE></TD></TR><!-- END ONE COLUMN ROW-->             
+        
+  <TR><!-- BEGIN TWO COLUMN ROW -->                         
+    <TD class="two-column" style="padding: 0px; text-align: center; font-size: 0px; vertical-align: top;"><!--[if (gte mso 9)|(IE)]>
+                    <table width="100%">
+                        <tr>
+                            <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: left; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <UL>
+                    <LI style="margin-bottom: 10px;">No residency                
+                                             requirement</LI>
+                    <LI style="margin-bottom: 10px;">Time to citizenship between 
+                                                            3-6 months</LI>
+                    <LI style="margin-bottom: 10px;">Dual citizenship is         
+                                                    permitted and not reported 
+                    to other                                                     
+                                                                                 
+                      countries                                                  
+                                                                 </LI>
+                    <LI style="margin-bottom: 10px;">Visa-free travel to about   
+                                                          160                   
+                    countries</LI></UL></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV> 
+                                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td width="50%" valign="top">
+                    <![endif]--> 
+                                                  
+      <DIV class="column" style="width: 100%; vertical-align: top; display: inline-block; max-width: 300px;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner" style="padding: 10px; vertical-align: top;">
+            <TABLE class="contents" style="width: 100%; text-align: left; color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; font-size: 14px; border-collapse: collapse; border-spacing: 0;">
+              <TBODY>
+              <TR>
+                <TD class="text" style="padding: 10px 0px 0px; vertical-align: top;">
+                  <UL>
+                    <LI style="margin-bottom: 10px;">All the rights of an EU     
+                                                        citizen</LI>
+                    <LI style="margin-bottom: 10px;">No tax consequences</LI>
+                    <LI style="margin-bottom: 10px;">Investor, spouse and        
+                                                     dependents up to age of 28 
+                    can be                                                       
+                                                                                 
+                    included                                                     
+                                                              </LI>
+                    <LI style="margin-bottom: 10px;">Main investor’s parents can 
+                                                            be                   
+                    included</LI></UL></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV> 
+                                      <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]--> 
+                                  </TD></TR><!-- END TWO COLUMN ROW-->               
+    
+  <TR><!-- BEGIN ONE COLUMN ROW-->                         
+    <TD class="one-column" style="padding: 0px; vertical-align: top;">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents" style="padding: 10px; width: 100%; text-align: left; vertical-align: top;">
+            <TABLE align="center" class="mcnButtonContentContainer button ghost-btn" 
+            style="background-position: left top; border-radius: 0px; border: 3px solid rgb(132, 188, 55); border-image: none; width: 80%; height: 25px; text-align: center; color: rgb(132, 188, 55); font-family: Roboto, sans-serif, Helvetica, Arial; margin-top: 10px; margin-bottom: 7px; vertical-align: middle; border-collapse: collapse; border-spacing: 0; -ms-text-size-adjust: 100%; background-image: none; background-attachment: scroll; background-repeat: repeat; background-color: rgb(255, 255, 255); -webkit-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" 
+            border="0" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR>
+                <TD align="center" class="mcnButtonContent" valign="middle" 
+                style="margin: 0px; padding: 15px; height: 25px; text-align: center; font-family: Arial; font-size: 14px; vertical-align: middle; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; mso-line-height-rule: exactly;"><A 
+                  title="Подробнее" class="mcnButton " style="text-align: center; color: rgb(132, 188, 55); line-height: 100%; letter-spacing: normal; font-size: 15px; font-weight: bold; text-decoration: none; display: block; -ms-text-size-adjust: 100%; background-color: rgb(255, 255, 255); -webkit-text-size-adjust: 100%; mso-line-height-rule: exactly;" 
+                  href="" target="_blank"><SPAN style="text-align: center; color: rgb(132, 188, 55); line-height: 100%; letter-spacing: normal; font-size: 15px; font-weight: bold; text-decoration: none; display: block; -ms-text-size-adjust: 100%; background-color: rgb(255, 255, 255); -webkit-text-size-adjust: 100%; mso-line-height-rule: exactly;">Learn 
+                                                              
+              More</SPAN></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR><!-- END ONE COLUMN ROW--> 
+                      
+  <TR><!-- BEGIN ONECOLUMN FOOTER ROW-->                         
+    <TD class="one-column black" style="padding: 0px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(42, 42, 42);">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents center" style="padding: 10px; width: 100%; text-align: center !important; vertical-align: top;">
+            <P style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"></P><A 
+            style="color: rgb(255, 255, 255); text-decoration: none;" href="https://www.prime-property.com/"><IMG 
+            style="border: 0px currentColor; border-image: none;" alt="www.prime-property.com" 
+            src="C:/Users/shapavalava.n/Desktop/prime-property-v21/logo.png">    
+                                                                 </A>            
+                                                                     
+            <P class="white" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><SPAN 
+            class="b-phone"><A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="C:/Users/shapavalava.n/Desktop/prime-property-v21/callto:+35725558700">+357(25)-558-700 
+                                    (Cyprus)</A></SPAN></P>
+            <P class="white" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><A 
+            class="footer-menu__link b-mail" style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="mailto:info@prime-property.com"> info@prime-property.com       
+                                </A></P><BR>
+            <P class="white" style="margin: 0px; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><A 
+            class="footer-menu__link" style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://www.prime-property.com/#" data-modal="callback">       
+                              Connect with us </A></P>
+            <P class="center" style="margin: 0px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><A 
+            style="color: rgb(255, 255, 255); text-decoration: none;" href="http://www.prime-property.com/en/Contacts/" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc1.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="C:/Users/shapavalava.n/Desktop/prime-property-v21/callto:skype:PPG-Sales" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc2.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://www.facebook.com/prime.property.group.ltd" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc3.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://www.linkedin.com/company/prime-property-group-cyprus/" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc4.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://plus.google.com/+PrimepropertyGroupCyprus/" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc5.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://www.youtube.com/user/primepropertygroupcy/" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc6.png" 
+            vspace="5"></A>                                     <A style="color: rgb(255, 255, 255); text-decoration: none;" 
+            href="https://www.weibo.com/u/1153134244?topnav=1&amp;wvr=6&amp;topsug=1" 
+            border="0"><IMG style="border: 0px currentColor; border-image: none; width: 24px;" 
+            alt="" src="C:/Users/shapavalava.n/Desktop/prime-property-v21/soc7.png" 
+            vspace="5"></A>                                               
+        </P></TD></TR></TBODY></TABLE></TD></TR><!-- END ONECOLUMN FOOTER ROW-->       
+                
+  <TR>
+    <TD class="one-column dark" style="padding: 0px; color: rgb(255, 255, 255); vertical-align: top; background-color: rgb(62, 68, 75);">
+      <TABLE width="100%" style="color: rgb(104, 104, 104); font-family: Roboto, sans-serif, Helvetica, Arial; border-collapse: collapse; border-spacing: 0;">
+        <TBODY>
+        <TR>
+          <TD class="inner contents center" style="padding: 10px; width: 100%; text-align: center !important; vertical-align: top;">
+            <P class="center" style="margin: 0px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.4; padding-bottom: 10px; font-size: 14px;"><SMALL>We 
+                                    are ready to listen to your needs and 
+            requirements and             assist you             making           
+                                                     the right choice. We        
+                 will be glad to hear from you!                                  
+                                         </SMALL>                                
+                           </P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- [if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]--></DIV></CENTER></BODY></HTML>

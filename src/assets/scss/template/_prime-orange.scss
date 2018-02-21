@@ -13,6 +13,10 @@ img {
 td, tr, img  { padding: 0px; margin: 0px; border: none; }
 table { border-collapse: collapse; }
 
+.header__item-title {
+  background-color: #2a2a2a;
+}
+
 .header {
   background: #2c2b2b;
 
@@ -50,30 +54,6 @@ table { border-collapse: collapse; }
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
-  }
-
-  &__price {
-    color: white;
-    text-transform: capitalize;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  &__price-black {
-    color: #2a2a2a;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: bold;
-  }
-
-  &__location {
-    background: #3bc2d6;
-  }
-
-  &__loctext {
-    color: white;
-    font-size: 16px;
   }
 
 }
@@ -176,14 +156,6 @@ table { border-collapse: collapse; }
     width: 100%;
     text-align: center;
   }
-}
-
-.prime-orng__text {
-  color: #686868;
-}
-
-.prime-orng__grey {
-  background: #f4f4f4;
 }
 
 .footer {
